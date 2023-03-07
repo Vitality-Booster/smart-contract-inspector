@@ -1,0 +1,35 @@
+# User-specific stuff
+**/workspace.xml
+**/tasks.xml
+**/usage.statistics.xml
+**/dictionaries
+**/shelf
+
+# Editor-based HTTP Client requests
+/httpRequests/
+
+# Generated files
+**/contentModel.xml
+
+# Sensitive or high-churn files
+**/dataSources/
+**/dataSources.ids
+**/dataSources.local.xml
+**/sqlDataSources.xml
+**/dynamic.xml
+**/uiDesigner.xml
+**/dbnavigator.xml
+
+# File-based project format
+*.iws
+
+# Cache file creation bug
+# See https://youtrack.jetbrains.com/issue/JBR-2257
+$CACHE_FILE$
+
+### WebStorm Patch ###
+# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+# *.iml
+# modules.xml
+# misc.xml
+# *.ipr
