@@ -12,6 +12,13 @@
     "@typescript-eslint/no-use-before-define": [
       "off"
     ],
-    "react/display-name": "off"
+    "react/display-name": "off",
+    "react/jsx-curly-brace-presence": [
+      "error",
+      {
+        "props": "always",
+        "children": "never"
+      }
+    ]
   }
 }

@@ -28,17 +28,17 @@ export const Footer = () => {
             <h3 className={'text-lg font-medium text-white'}>Contact</h3>
             <ul className={'mt-2 space-y-2'}>
               <li>
-                <Link href="#" className={'text-gray-400 hover:text-white'}>
+                <Link href={'#'} className={'text-gray-400 hover:text-white'}>
                   Email
                 </Link>
               </li>
               <li>
-                <Link href="#" className={'text-gray-400 hover:text-white'}>
+                <Link href={'#'} className={'text-gray-400 hover:text-white'}>
                   Twitter
                 </Link>
               </li>
               <li>
-                <Link href="#" className={'text-gray-400 hover:text-white'}>
+                <Link href={'#'} className={'text-gray-400 hover:text-white'}>
                   Discord
                 </Link>
               </li>
@@ -58,11 +58,11 @@ export const Footer = () => {
             <form className={'mt-4'}>
               <div className={'flex items-center'}>
                 <input
-                  type="email"
+                  type={'email'}
                   className={
                     'bg-gray-700 focus:ring-2 focus:ring-primary rounded-md flex-1 block w-full text-white border-gray-700 py-2 px-3 focus:outline-none focus:shadow-outline-gray'
                   }
-                  placeholder="Enter your email"
+                  placeholder={'Enter your email'}
                 />
                 <motion.button
                   whileHover={{ scale: 1.1 }}
@@ -89,10 +89,10 @@ export const Footer = () => {
             </p>
           </div>
           <div className={'mt-4 flex space-x-6 md:mt-0'}>
-            <Link href="#" className={'text-gray-400 hover:text-white'}>
+            <Link href={'#'} className={'text-gray-400 hover:text-white'}>
               Terms of Service
             </Link>
-            <Link href="#" className={'text-gray-400 hover:text-white'}>
+            <Link href={'#'} className={'text-gray-400 hover:text-white'}>
               Privacy Policy
             </Link>
           </div>

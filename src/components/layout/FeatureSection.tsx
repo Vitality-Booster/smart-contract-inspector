@@ -48,17 +48,17 @@ export const FeatureSection = () => {
                     >
                       <svg
                         className={'h-6 w-6 text-white'}
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        aria-hidden="true"
+                        xmlns={'http://www.w3.org/2000/svg'}
+                        fill={'none'}
+                        viewBox={'0 0 24 24'}
+                        stroke={'currentColor'}
+                        aria-hidden={'true'}
                       >
                         <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
+                          strokeLinecap={'round'}
+                          strokeLinejoin={'round'}
                           strokeWidth={2}
-                          d="M13 10V3L4 14h7v7l9-11h-7z"
+                          d={'M13 10V3L4 14h7v7l9-11h-7z'}
                         />
                       </svg>
                     </span>
@@ -95,17 +95,17 @@ export const FeatureSection = () => {
                     >
                       <svg
                         className={'h-6 w-6 text-white'}
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        aria-hidden="true"
+                        xmlns={'http://www.w3.org/2000/svg'}
+                        fill={'none'}
+                        viewBox={'0 0 24 24'}
+                        stroke={'currentColor'}
+                        aria-hidden={'true'}
                       >
                         <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
+                          strokeLinecap={'round'}
+                          strokeLinejoin={'round'}
                           strokeWidth={2}
-                          d="M13 10V3L4 14h7v7l9-11h-7z"
+                          d={'M13 10V3L4 14h7v7l9-11h-7z'}
                         />
                       </svg>
                     </span>
@@ -142,17 +142,17 @@ export const FeatureSection = () => {
                     >
                       <svg
                         className={'h-6 w-6 text-white'}
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        aria-hidden="true"
+                        xmlns={'http://www.w3.org/2000/svg'}
+                        fill={'none'}
+                        viewBox={'0 0 24 24'}
+                        stroke={'currentColor'}
+                        aria-hidden={'true'}
                       >
                         <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
+                          strokeLinecap={'round'}
+                          strokeLinejoin={'round'}
                           strokeWidth={2}
-                          d="M13 10V3L4 14h7v7l9-11h-7z"
+                          d={'M13 10V3L4 14h7v7l9-11h-7z'}
                         />
                       </svg>
                     </span>
