@@ -39,7 +39,7 @@ export const FeatureSection = () => {
               viewport={{ once: true }}
             >
               <div className={'flow-root bg-gray-100 rounded-lg px-6 pb-8'}>
-                <div className={'mt-6'}>
+                <div className={'-mt-6'}>
                   <div>
                     <span
                       className={
@@ -86,7 +86,7 @@ export const FeatureSection = () => {
               viewport={{ once: true }}
             >
               <div className={'flow-root bg-gray-100 rounded-lg px-6 pb-8'}>
-                <div className={'mt-6'}>
+                <div className={'-mt-6'}>
                   <div>
                     <span
                       className={

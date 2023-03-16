@@ -17,7 +17,7 @@ const navItems: NavItemType[] = [
     href: '/about',
   },
   {
-    name: 'scan',
+    name: 'Scan',
     href: '/scan',
   },
   {
