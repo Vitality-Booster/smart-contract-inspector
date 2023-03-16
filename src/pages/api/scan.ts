@@ -21,8 +21,13 @@ export default async function handler(
         model: 'gpt-3.5-turbo',
         messages: [
           {
+            role: 'system',
+            content:
+              'This is a smart-contract scanner. It will tell you if the smart-contract is vulnerable to reentrancy attacks. Answer only with true or false, and do not write any context. The user will provide the smart-contract.',
+          },
+          {
             role: 'user',
-            content: `Answer only with 'true' or 'false', and do not write any context. Is this smart-contract is vulnerable to reentrancy attacks: ${solidityContract}`,
+            content: `${solidityContract}`,
           },
         ],
       });
